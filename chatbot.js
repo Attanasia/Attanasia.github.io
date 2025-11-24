@@ -6,12 +6,10 @@ const CHATBOT_CONFIG = {
     
     // Personal Information Context
     personalInfo: {
-        name: "Adil Shamim",
-        title: "Machine Learning Engineer",
-        location: "Dhaka, Bangladesh",
-        phone: "+880 1321073452",
-        email: "adilshamim696@gmail.com",
-        education: "Computer Science and Engineering - BNIST (February 2023—Present)",
+        name: "Attanasia Garuso",
+        location: "United States of America",
+        email: "garusoattanasia@gmail.com",
+        education: "Computer Science - Rowan University ( 2023—Present)",
         experience: "Machine Learning Engineer with over 2 years of hands-on experience",
         kaggleStatus: "Kaggle Expert - Completed 15 competitions",
         languages: ["English (Fluent)", "Bengali (Native)", "Hindi (Conversational)"],
@@ -82,11 +80,9 @@ const CHATBOT_CONFIG = {
         ],
         
         socialMedia: {
-            linkedin: "https://www.linkedin.com/in/adilshamim8",
-            github: "https://github.com/AdilShamim8",
-            kaggle: "https://www.kaggle.com/adilshamim8",
-            twitter: "https://x.com/adil_shamim8",
-            medium: "https://adilshamim8.medium.com/"
+            linkedin: "https://www.linkedin.com/in/attanasia-garuso",
+            github: "https://github.com/Attanasia",
+            kaggle: "https://www.kaggle.com/attanasiagaruso"
         },
         
         workExperience: [
@@ -877,6 +873,7 @@ if (document.readyState === 'loading') {
 } else {
     window.adilChatbot = new AdilChatbot();
 }
+
 
 
 

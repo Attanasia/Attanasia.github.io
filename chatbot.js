@@ -6,50 +6,67 @@ const CHATBOT_CONFIG = {
     
     // Personal Information Context
     personalInfo: {
-        name: "Adil Shamim",
-        title: "Machine Learning Engineer",
-        location: "Dhaka, Bangladesh",
-        phone: "+880 1321073452",
-        email: "adilshamim696@gmail.com",
-        education: "Computer Science and Engineering - BNIST (February 2023—Present)",
-        experience: "Machine Learning Engineer with over 2 years of hands-on experience",
-        kaggleStatus: "Kaggle Expert - Completed 15 competitions",
-        languages: ["English (Fluent)", "Bengali (Native)", "Hindi (Conversational)"],
+        name: "Attanasia Garuso",
+        location: "East Coast, United States",
+        email: "garusoattanasia@gmail.com",
+        education: "Masters in Computer Science - Rowan University (In Progress)",
+        experience: "Research Assistant with over 2 years of hands-on experience in building machine learning and artificial intelligence models",
+        languages: ["English (Native)", "Shona (Native)"],
         
-        bio: `I'm Adil Shamim. I'm a Machine Learning Engineer with over two years of hands-on experience. I build practical ML systems—pipelines, Dockerized services, and tracked experiments—that teams actually use. I built a recommender that boosted a client's sales by 10%. I enjoy transforming complex data into intuitive tools that enable people to make informed decisions.`,
+        bio: `I'm Attanasia Garuso, a data-focused engineer with experience spanning machine learning, AI systems, quantitative analysis, and software engineering. I love working at the intersection of math, data, and code—whether that means building predictive models, developing intelligent applications, or designing analytical solutions for real-world problems. My work combines strong statistical reasoning with practical engineering skills to create tools that are both accurate and scalable.`,
         
         skills: {
             programmingAndData: [
-                "Python (Advanced)",
-                "SQL (Advanced)",
-                "R (Intermediate)",
-                "Bash"
+                "Python",
+                "SQL",
+                "R",
+                "Bash",
+                "Kotlin",
+                "JavaScript",
+                "Rust",
+                "PHP",
+                "Lua",
             ],
             modelingAndML: [
                 "TensorFlow",
                 "scikit-learn",
                 "XGBoost",
                 "LightGBM",
-                "CatBoost"
+                "CatBoost",
+                "PyTorch",
+                "NumPy",
+                "Pandas"
+            ],
+            databasesAndDataEngineering: [
+                "MySQL",
+                "MongoDB",
+                "Neo4j"
             ],
             mlopsAndDeployment: [
                 "MLflow",
                 "ZenML",
                 "Docker",
-                "FastAPI"
+                "FastAPI",
+                "Azure IoT",
+                "AWS (Generative AI Tools)",
+                "Flask",
+                "StreamLit"
             ],
-            tools: [
+            toolsAndIDEs: [
                 "Jupyter",
                 "Git",
                 "VSCode",
-                "Streamlit",
-                "Flask"
+                "Google Colab",
+                "Android Studio",
+                "NetBeans",
+                "Eclipse",
+                "StarUML",
+                "Pygame"
             ],
-            nlpAndEmbeddings: [
-                "spaCy",
-                "SBERT",
-                "FAISS",
-                "TF-IDF"
+            operatingSystems: [
+                "Windows",
+                "macOS",
+                "Linux"
             ]
         },
         
@@ -82,18 +99,16 @@ const CHATBOT_CONFIG = {
         ],
         
         socialMedia: {
-            linkedin: "https://www.linkedin.com/in/adilshamim8",
-            github: "https://github.com/AdilShamim8",
-            kaggle: "https://www.kaggle.com/adilshamim8",
-            twitter: "https://x.com/adil_shamim8",
-            medium: "https://adilshamim8.medium.com/"
+            linkedin: "https://www.linkedin.com/in/attanasia-garuso",
+            github: "https://github.com/Attanasia",
+            kaggle: "https://www.kaggle.com/attanasiagaruso"
         },
         
         workExperience: [
             {
-                title: "Freelance Machine Learning Engineer",
-                company: "Self-employed",
-                period: "July 2025—Present",
+                title: "Research Assistant",
+                company: "Rowan University",
+                period: "April 2023—Present",
                 responsibilities: [
                     "Performed end-to-end analyses on public datasets to extract actionable insights for health and economic questions",
                     "Produced slide decks and dashboards for stakeholders",
@@ -877,5 +892,6 @@ if (document.readyState === 'loading') {
 } else {
     window.adilChatbot = new AdilChatbot();
 }
+
 
 

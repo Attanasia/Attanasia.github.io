@@ -1,32 +1,24 @@
-/* ===== VARIABLES - ATTANASIA COLOR PALETTE ===== */
+/* ===== VARIABLES - iOS DESIGN SYSTEM ===== */
 :root {
-    /* Main Colors */
-    --primary-color: #A855F7;          /* Rich orchid purple */
-    --secondary-color: #F472B6;        /* Soft magenta */
-    --accent-color: #EF4444;           /* Red for alerts/errors */
-    --success-color: #34C759;          /* Green for success */
-    --warning-color: #FBBF24;          /* Yellow/orange for warnings */
-
-    /* Text Colors */
-    --text-color: #111827;             /* Dark gray - main text */
-    --text-color-light: #9CA3AF;       /* Light gray - secondary text */
-    --text-color-secondary: #6B7280;   /* Muted gray - tertiary text */
-
-    /* Background Colors */
-    --background-color: #FFF5F7;       /* Light pinkish-white - main page */
-    --background-elevated: #FFFFFF;    /* White - cards, raised content */
-    --background-alt: #FFFFFF;         /* White - alternate sections */
-    --background-secondary: #FDF2F8;   /* Slightly pinkish neutral - panels */
-
-    /* Borders & Shadows */
-    --border-color: rgba(111, 66, 193, 0.2);       /* Soft purple border */
-    --separator-color: rgba(111, 66, 193, 0.35);   /* Slightly darker purple separator */
-    --shadow-color: rgba(0, 0, 0, 0.08);           /* Light shadow */
-    --shadow-elevated: rgba(0, 0, 0, 0.12);        /* Stronger shadow for elevated elements */
-
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, #A855F7 0%, #F472B6 100%);  /* Hero banners / highlights */
-    --gradient-mesh: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(244, 114, 182, 0.1) 100%); /* Subtle overlay */
+    /* iOS Light Theme Colors */
+    --primary-color: #007AFF;
+    --secondary-color: #5856D6;
+    --accent-color: #FF3B30;
+    --success-color: #34C759;
+    --warning-color: #FF9500;
+    --text-color: #000000;
+    --text-color-light: #8E8E93;
+    --text-color-secondary: #6C6C70;
+    --background-color: #F2F2F7;
+    --background-elevated: #FFFFFF;
+    --background-alt: #FFFFFF;
+    --background-secondary: #F9F9F9;
+    --border-color: rgba(60, 60, 67, 0.12);
+    --separator-color: rgba(60, 60, 67, 0.29);
+    --shadow-color: rgba(0, 0, 0, 0.08);
+    --shadow-elevated: rgba(0, 0, 0, 0.12);
+    --gradient-primary: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+    --gradient-mesh: linear-gradient(135deg, rgba(0, 122, 255, 0.1) 0%, rgba(88, 86, 214, 0.1) 100%);
     
     /* iOS Typography Scale */
     --font-size-caption2: 0.6875rem;      /* 11px */
@@ -1739,6 +1731,7 @@ img[src] {
     );
     background-size: 1000px 100%;
 } 
+
 
 
 

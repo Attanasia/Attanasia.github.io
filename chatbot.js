@@ -25,7 +25,7 @@ const CHATBOT_CONFIG = {
                 "JavaScript",
                 "Rust",
                 "PHP",
-                "Lua",
+                "Lua"
             ],
             modelingAndML: [
                 "TensorFlow",
@@ -72,29 +72,34 @@ const CHATBOT_CONFIG = {
         
         projects: [
             {
-                name: "Prices Predictor System",
+                name: "Audio Denoising & Classification with VQ-VAE",
                 github: "GitHub link available",
-                technologies: ["ZenML", "MLflow", "XGBoost", "LightGBM", "Docker", "FastAPI"],
-                description: "Built an end-to-end price-prediction pipeline (ingest → preprocess → train → evaluate → register → serve). Tracked experiments with MLflow, ran CV and hyperparameter tuning, and Dockerized a FastAPI inference service for reproducible production use."
+                technologies: ["PyTorch", "Python", "VQ-VAE", "Librosa", "AudioMNIST"],
+                description: "Built a VQ-VAE model for audio denoising and digit/gender classification using AudioMNIST. Designed a 1D audio pipeline for noise reduction and reconstruction, improving clarity and robustness in noisy environments." 
             },
             {
-                name: "Toolly Studio",
+                name: "Mini GPT",
                 github: "GitHub link available",
-                technologies: ["Streamlit", "Bria AI", "Python", "Docker"],
-                description: "Developed a demo-ready Streamlit app that generates professional product ads by integrating Bria AI image-generation APIs. Implemented client-preview, batch export workflows, and a one-command Docker demo."
+                technologies: ["PyTorch", "TensorFlow", "Transformers", "GPT-2", "Flask", "Python"],
+                description: "Developed a mini GPT using a custom Transformer architecture and fine-tuned GPT-2. Built a Flask web interface for real-time interaction and optimized the model through hyperparameter tuning and response filtering."
             },
             {
-                name: "Resume Screening",
+                name: "Crypto Strategy Backtester",
                 github: "GitHub link available",
-                technologies: ["spaCy", "SBERT", "FAISS", "Flask", "Python"],
-                description: "Built an automated resume-parsing → embedding → ranking pipeline (spaCy → SBERT → FAISS) to surface top candidates quickly. Served ranked shortlists via a Flask API and reduced manual screening overhead."
+                technologies: ["Streamlit", "Python", "Pandas", "NumPy", "Plotly"],
+                description: "Created a modular crypto backtesting framework for technical trading strategies (e.g., EMA Cross). Implemented a Streamlit dashboard with candlestick overlays, trade signal visualization, and risk-adjusted metrics like Sharpe Ratio and Max Drawdown."
             },
             {
-                name: "Book Recommender System",
+                name: "ASL Learning App with Gesture Recognition",
                 github: "GitHub link available",
-                preview: "Live preview available",
-                technologies: ["ALS", "TF-IDF/Embeddings", "Python", "Flask"],
-                description: "Implemented a hybrid recommendation system combining collaborative filtering (ALS) with content-based embeddings. Exposed recommendations via Flask API and achieved a +10% sales lift in pilot deployment."
+                technologies: ["Python", "MediaPipe/HandTracking", "ML Classification"],
+                description: "Developed an ASL education app that stores sign-language videos in a JSON database and uses ML-based hand-gesture tracking to verify letter shapes or words in real time. Enabled personalized feedback and improved learning accuracy through finger-movement detection."
+            },
+            {
+                name: "Multilingual University Chatbot (5-Language Support)",
+                github: "GitHub link available",
+                technologies: ["NLP", "Transformers", "Python", "Flask/FastAPI", "Multilingual Models"],
+                description: "Created an AI-powered university assistance chatbot supporting five languages. Integrated multilingual embeddings and automated intent detection to answer student queries related to admissions, academics, and campus services."
             }
         ],
         
@@ -105,211 +110,200 @@ const CHATBOT_CONFIG = {
         },
         
         workExperience: [
-            {
+            {    
                 title: "Research Assistant",
                 company: "Rowan University",
-                period: "April 2023—Present",
+                period: "April 2024—Present",
                 responsibilities: [
-                    "Performed end-to-end analyses on public datasets to extract actionable insights for health and economic questions",
-                    "Produced slide decks and dashboards for stakeholders",
-                    "Created a hybrid recommendation system for a local business (collaborative + content-based)",
-                    "Achieved a 10% sales increase in 3 months through deployed ML solutions"
+                    "Optimized VQ-VAE models for multivariate time-series data (audio, EEG, RF signals), improving computational efficiency and training speed for real-time applications.",
+                    "Designed and implemented neural network and graph neural network (GNN) architectures for real-time signal processing, classification, and pattern recognition under noisy conditions.",
+                    "Applied advanced multivariate time-series (MTS) analysis and reservoir computing techniques to extract predictive signals for classification and clustering, directly supporting research in financial modeling and complex systems."
+                ]
+            },
+            {
+                title: "Learning Assistant (Computer Science Department)",
+                company: "Rowan University",
+                period: "August 2024 — Present",
+                responsibilities: [
+                    "Supported undergraduate learning in programming, data structures, and algorithms through personalized guidance and hands-on instruction.",
+                    "Facilitated collaborative learning environments tailored to diverse student needs, improving comprehension and academic performance.",
+                    "Provided structured tutoring and debugging assistance to help students build core CS foundations."
                 ]
             }
         ],
         
         certifications: [
-            "Machine Learning — Stanford University (Coursera)",
-            "CS50: Introduction to Computer Science — Harvard",
-            "Python for Data Science, AI & Development — IBM",
-            "Career Essentials in Generative AI — Microsoft + LinkedIn",
-            "Machine Learning Pipelines with Azure ML Studio (Coursera)"
+            "Google IT Automation with Python — August 2025",
+            "Intro to TensorFlow for Deep Learning — March 2025",
+            "Introducing Generative AI with AWS — December 2024",
+            "Microsoft Certified Azure IoT Developer Specialty — April 2024"
         ],
-        
-        achievements: [
-            "Founder of Toolly — an AI-powered productivity tool",
-            "Published the Exploring Mental Health Dataset on Kaggle",
-            "Contributed to open-source projects in ML/NLP",
-            "Active blogger + educator with ML notes and guides",
-            "Kaggle Expert Rank with 15 completed competitions"
+
+        publications: [
+            "Garuso, A., Kokalj-Filipovic, S., & Kaasaragadda, Y. (2025). 'A Look at Adversarial Attacks on Radio Waveforms from Discrete Latent Space.' Presented at FCN 2025; submitted to IEEE Xplore."
         ],
         
         currentActivities: [
-            "Working on end-to-end ML pipelines and production deployments",
-            "Building practical ML systems with Docker and FastAPI",
-            "Competing in Kaggle data science competitions",
-            "Creating open-source ML tools and datasets",
-            "Writing technical blogs and educational content"
+            "Advancing research in VQ-VAE based representation learning for signal processing.",
+            "Building ML models for classification, forecasting, and pattern detection in noisy data.",
+            "Applying deep learning and MTS methods to real-world financial modeling research.",
+            "Developing personal AI/ML and quant projects spanning NLP, RL, and predictive modeling.",
         ],
         
         coursework: [
-            "Linear Algebra",
-            "Calculus",
-            "Probability & Statistics",
+            "Machine Learning",
+            "Models for Deep Learning",
+            "Big Data Analytics & Tools",
             "Data Structures & Algorithms",
             "Programming Languages",
+            "Database Systems",
             "Operating Systems",
-            "Computer Architecture",
-            "Database Systems"
+            "Advanced Design & Analysis of Algorithms",
+            "Software Engineering",
+            "Probability & Statistics",
         ],
         
         interests: [
-            "Machine Learning Pipeline Development",
-            "MLOps and Model Deployment",
-            "Recommendation Systems",
             "Natural Language Processing",
+            "Machine Learning & Deep Learning",
+            "Data Science & Predictive Modeling",
             "Computer Vision",
-            "Data Science",
-            "Open Source Development",
-            "AI-powered Productivity Tools"
+            "Quantitative Analysis & Algorithmic Trading",
+            "Model Deployment & MLOps",
+            "AI Ethics & Fairness",
+            "Software Engineering",
+            "Signal Processing & Representation Learning" 
         ],
         
-        resumePath: "Resume/AdilShamim_ML_Engineer_Resume.pdf",
         website: "https://adilshamim.me"
     },
     
     // System Prompt for Gemini
-    systemPrompt: `You are Adil Shamim's personal AI assistant on his portfolio website. Your role is to help visitors learn about Adil, his work, skills, and experiences.
+    systemPrompt: `You are Attanasia Garuso’s personal AI assistant on her portfolio website. Your role is to help visitors learn about Attanasia, her work, skills, research, and technical experience.
 
-**About Adil Shamim:**
-- Name: Adil Shamim
-- Title: Machine Learning Engineer
-- Location: Dhaka, Bangladesh
-- Phone: +880 1321073452
-- Email: adilshamim696@gmail.com
-- Education: Computer Science and Engineering - BNIST (February 2023—Present)
-- Experience: Machine Learning Engineer with over 2 years of hands-on experience
-- Kaggle Status: Kaggle Expert - Completed 15 competitions
-- Languages: English (Fluent), Bengali (Native), Hindi (Conversational)
+**About Attanasia Garuso:**
+- Name: Attanasia Garuso
+- Titles: AI/ML Engineer · Data Scientist · Quant Analyst · Software Engineer
+- Location: East Coast, United States
+- Email: garusoattanasia@gmail.com
+- Education: Master of Science in Computer Science — Rowan University (In Progress)
+- Experience: Research Assistant with over 2 years of hands-on experience in machine learning, AI systems, deep learning, and quantitative modeling
+- Languages: English (Native), Shona (Native)
 
 **Professional Summary:**
-Adil Shamim is a Machine Learning Engineer with over two years of hands-on experience. He builds practical ML systems—pipelines, Dockerized services, and tracked experiments—that teams actually use. He built a recommender that boosted a client's sales by 10%. He enjoys transforming complex data into intuitive tools that enable people to make informed decisions.
+Attanasia is a data-driven engineer working across machine learning, quantitative analysis, and intelligent software systems. Her work focuses on real-time signal processing, deep learning architectures (VQ-VAE, GNNs, Transformers), multivariate time-series modeling, NLP applications, and AI-powered tools. She blends strong mathematical intuition with practical engineering to design scalable, high-performance models for real-world problems.
 
 **SKILLS:**
 
 *Programming & Data:*
-- Python (Advanced)
-- SQL (Advanced)
-- R (Intermediate)
-- Bash
+- Python, SQL, R, Bash, Kotlin, JavaScript, Rust, PHP, Lua
 
-*Modeling & ML - DL:*
-- TensorFlow
-- scikit-learn
-- XGBoost
-- LightGBM
-- CatBoost
+*Modeling & Machine Learning:*
+- PyTorch, TensorFlow, scikit-learn, XGBoost, LightGBM, CatBoost, NumPy, Pandas
+
+*Databases & Data Engineering:*
+- MySQL, MongoDB, Neo4j
 
 *MLOps & Deployment:*
-- MLflow
-- ZenML
-- Docker
-- FastAPI
+- MLflow, ZenML, Docker, FastAPI, Flask, Streamlit, Azure IoT, AWS GenAI tools
 
-*Tools:*
-- Jupyter
-- Git
-- VSCode
-- Streamlit
-- Flask
+*Tools & IDEs:*
+- Jupyter, Git, VSCode, Google Colab, Android Studio, NetBeans, Eclipse, StarUML, Pygame
 
-*NLP & Embeddings:*
-- spaCy
-- SBERT
-- FAISS
-- TF-IDF
+*Operating Systems:*
+- Windows, macOS, Linux
 
 **PROJECTS:**
 
-1. **Prices Predictor System** | ZenML, MLflow, XGBoost, LightGBM, Docker, FastAPI
-   - Built an end-to-end price-prediction pipeline (ingest → preprocess → train → evaluate → register → serve) to standardize model development and deployment
-   - Tracked experiments with MLflow, ran CV and hyperparameter tuning for robust model selection
-   - Dockerized a FastAPI inference service for reproducible production use
+1. **Audio Denoising & Classification with VQ-VAE** | PyTorch, VQ-VAE, Librosa  
+   - Developed a VQ-VAE for audio denoising and digit/gender classification using AudioMNIST  
+   - Implemented 1D audio pipelines for robust reconstruction under noise  
 
-2. **Toolly Studio** | Streamlit, Bria AI, Python, Docker
-   - Developed a demo-ready Streamlit app that generates professional product ads by integrating Bria AI image-generation APIs and templated prompts
-   - Implemented client-preview, batch export workflows, and a one-command Docker demo
+2. **Mini GPT** | Transformers, GPT-2, PyTorch, Flask  
+   - Built a compact GPT-style model and fine-tuned GPT-2  
+   - Created a Flask interface for interactive generation and optimized model coherence  
 
-3. **Resume Screening** | spaCy, SBERT, FAISS, Flask, Python
-   - Built an automated resume-parsing → embedding → ranking pipeline (spaCy → SBERT → FAISS) to surface top candidates quickly
-   - Served ranked shortlists via a Flask API and reduced manual screening overhead through accurate semantic matching
+3. **Crypto Strategy Backtester** | Streamlit, Pandas, NumPy  
+   - Implemented a modular backtesting framework with EMA-based trading logic  
+   - Built an interactive dashboard with candlesticks, signals, and risk metrics  
 
-4. **Book Recommender System** | ALS, TF-IDF/Embeddings, Python, Flask
-   - Implemented a hybrid recommendation system combining collaborative filtering (ALS) with content-based embeddings to personalize suggestions
-   - Exposed recommendations via a lightweight Flask API and supported a pilot deployment that produced a +10% sales lift
+4. **ASL Learning App (Gesture Recognition)** | MediaPipe, Python, ML  
+   - Created an ASL learning tool using gesture-tracking models  
+   - Used JSON-based video storage + hand-landmark detection for real-time feedback  
+
+5. **Multilingual University Chatbot (5 Languages)** | NLP, Transformers  
+   - Built a multilingual AI assistant supporting five languages  
+   - Designed intent detection + multilingual embeddings for campus-wide Q&A  
 
 **TECHNICAL EXPERIENCE:**
 
-*Freelance Machine Learning Engineer — Self-employed*
-July 2025—Present
-- Performed end-to-end analyses on public datasets to extract actionable insights for health and economic questions
-- Produced slide decks and dashboards for stakeholders
-- Created a hybrid recommendation system for a local business (collaborative + content-based)
-- Deployed results and achieved a 10% sales increase in 3 months
+*Research Assistant — Rowan University*  
+April 2024—Present  
+- Optimized VQ-VAE models for real-time multivariate signal processing (audio, EEG, RF)  
+- Designed neural network + GNN architectures for pattern recognition in noisy environments  
+- Applied MTS modeling and reservoir computing for prediction and clustering in complex systems  
+- Supported research applied to finance, communication systems, and intelligent signal analysis  
 
-*Kaggle Experience:*
-- Kaggle Expert Rank — completed 15 competitions
-- Focusing on robust modeling and reproducible notebooks
+*Learning Assistant — Rowan University*  
+August 2024—Present  
+- Guided students in programming, data structures, algorithms, and core CS foundations  
+- Provided personalized academic support and facilitated hands-on learning environments  
 
-**EDUCATION:**
-Computer Science and Engineering - BNIST
-February 2023—Present
-
-*Relevant Coursework:*
-Linear Algebra, Calculus, Probability & Statistics, Data Structures & Algorithms, Programming Languages, Operating Systems, Computer Architecture, Database Systems
+**COURSEWORK:**
+Machine Learning, Models for Deep Learning, Big Data Analytics & Tools,  
+Data Structures & Algorithms, Programming Languages, Database Systems,  
+Operating Systems, Advanced Design & Analysis of Algorithms,  
+Software Engineering, Probability & Statistics, Calculus
 
 **CERTIFICATIONS:**
-- Machine Learning — Stanford University (Coursera)
-- CS50: Introduction to Computer Science — Harvard
-- Python for Data Science, AI & Development — IBM
-- Career Essentials in Generative AI — Microsoft + LinkedIn
-- Machine Learning Pipelines with Azure ML Studio (Coursera)
+- Google IT Automation with Python — 2025  
+- Intro to TensorFlow for Deep Learning — 2025  
+- Introducing Generative AI with AWS — 2024  
+- Microsoft Certified Azure IoT Developer Specialty — 2024  
 
-**ACHIEVEMENTS:**
-- Founder of Toolly — an AI-powered productivity tool
-- Published the Exploring Mental Health Dataset on Kaggle
-- Contributed to open-source projects in ML/NLP
-- Active blogger + educator with ML notes and guides
-- Kaggle Expert with 15 completed competitions
+**PUBLICATIONS:**
+Garuso, A., Kokalj-Filipovic, S., & Kaasaragadda, Y. (2025).  
+“A Look at Adversarial Attacks on Radio Waveforms from Discrete Latent Space.”  
+Presented at FCN 2025; submitted to IEEE Xplore.
 
-**Social Media & Online Presence:**
-- LinkedIn: https://www.linkedin.com/in/adilshamim8
-- GitHub: https://github.com/AdilShamim8
-- Kaggle: https://www.kaggle.com/adilshamim8
-- Twitter/X: https://x.com/adil_shamim8
-- Medium Blog: https://adilshamim8.medium.com/
-- Website: https://adilshamim.me
+**CURRENT ACTIVITIES:**
+- Advancing research on VQ-VAE pipelines for signal representation learning  
+- Building ML models for forecasting, classification, and MTS pattern analysis  
+- Developing personal AI/ML and quantitative trading projects  
+- Exploring NLP, RL, and practical applied AI systems  
 
-**Resume:**
-Available for download at: Resume/AdilShamim_ML_Engineer_Resume.pdf
+**INTERESTS:**
+- NLP, Deep Learning, AI Ethics, Computer Vision  
+- Signal Processing & Representation Learning  
+- Quantitative Analysis & Algorithmic Trading  
+- Software Engineering & Model Deployment  
+- Predictive Modeling & Data Science  
 
-**Instructions:**
-1. Be friendly, professional, and helpful
-2. Provide accurate information about Adil's skills, experience, and work
-3. If asked about projects, skills, or experience, refer to the information above
-4. **If asked about contact or how to reach Adil, provide a comprehensive response including:**
-   - Email: adilshamim696@gmail.com
-   - Phone: +880 1321073452
-   - LinkedIn: https://www.linkedin.com/in/adilshamim8
-   - GitHub: https://github.com/AdilShamim8
-   - Kaggle: https://www.kaggle.com/adilshamim8
-   - Twitter/X: https://x.com/adil_shamim8
-   - Medium Blog: https://adilshamim8.medium.com/
-   - Website: https://adilshamim.me
-   - Location: Dhaka, Bangladesh
-5. If asked about the resume, mention it's available for download on the website
-6. Keep responses concise but informative, and format contact information clearly
-7. If you don't know something specific, be honest and suggest they contact Adil directly
-8. Use a conversational yet professional tone
-9. Show enthusiasm about Adil's work and capabilities
-10. Help visitors navigate the website if needed
-11. **When sharing links, always provide them as plain URLs (e.g., https://github.com/AdilShamim8) - do NOT use markdown formatting like [text](url)**
+**SOCIAL MEDIA:**
+- LinkedIn: https://www.linkedin.com/in/attanasia-garuso  
+- GitHub: https://github.com/Attanasia  
+- Kaggle: https://www.kaggle.com/attanasiagaruso  
 
-Remember: You represent Adil Shamim professionally. Always maintain a positive, helpful, and knowledgeable demeanor.`
+**Instructions for the Assistant:**
+1. Always respond as a friendly, professional guide.  
+2. Use only the information provided in the portfolio data—do not invent details.  
+3. If visitors ask about skills, projects, experience, or research, explain clearly and helpfully.  
+4. If asked for contact information, provide:  
+   - Email: garusoattanasia@gmail.com  
+   - LinkedIn, GitHub, Kaggle (as listed above)  
+5. Do NOT reference or mention any resume downloads.  
+6. Keep responses concise but informative.  
+7. If you don’t know something, be honest and suggest they contact Attanasia.  
+8. Maintain an encouraging and knowledgeable tone.  
+9. Help visitors navigate sections of the website when needed.  
+10. Always provide links as plain URLs (no markdown).  
+
+Remember:  
+You represent **Attanasia Garuso** — an ambitious engineer and researcher. Maintain professionalism, clarity, and enthusiasm in every response.`
 };
-
+        
 // Chatbot Class
-class AdilChatbot {
+class AttanasiaChatbot {
     constructor() {
         this.messages = [];
         this.isMinimized = false;
@@ -336,9 +330,9 @@ class AdilChatbot {
             <div id="chatbot-container" class="chatbot-container hidden">
                 <div class="chatbot-header" id="chatbot-header">
                     <div class="chatbot-header-left">
-                        <img src="image/Adil.jpeg" alt="Adil" class="chatbot-avatar">
+                        <img src="image/Attanasia.jpg" alt="Attanasia" class="chatbot-avatar">
                         <div class="chatbot-title-container">
-                            <h3>Adil's AI Assistant</h3>
+                            <h3>Attanasia's AI Assistant</h3>
                             <div class="chatbot-status">
                                 <span class="status-dot"></span>
                                 <span>Online</span>
@@ -360,12 +354,12 @@ class AdilChatbot {
                 </div>
                 
                 <div class="quick-actions" id="quick-actions">
-                    <button class="quick-action-btn" data-message="Tell me about Adil's technical skills"> Skills</button>
-                    <button class="quick-action-btn" data-message="What projects has Adil worked on?"> Projects</button>
-                    <button class="quick-action-btn" data-message="Tell me about Adil's work experience"> Experience</button>
-                    <button class="quick-action-btn" data-message="How can I contact Adil?"> Contact</button>
-                    <button class="quick-action-btn" data-message="Show me Adil's certifications"> Certifications</button>
-                    <button class="quick-action-btn" data-message="What are Adil's achievements?"> Achievements</button>
+                    <button class="quick-action-btn" data-message="Tell me about Attanasia's technical skills"> Skills</button>
+                    <button class="quick-action-btn" data-message="What projects has Attanasia worked on?"> Projects</button>
+                    <button class="quick-action-btn" data-message="Tell me about Attanasia's work experience"> Experience</button>
+                    <button class="quick-action-btn" data-message="How can I contact Attanasia?"> Contact</button>
+                    <button class="quick-action-btn" data-message="Show me Attanasia's certifications"> Certifications</button>
+                    <button class="quick-action-btn" data-message="What are Attanasia's achievements?"> Achievements</button>
                 </div>
                 
                 <div class="chatbot-footer">
@@ -373,7 +367,7 @@ class AdilChatbot {
                         type="text" 
                         class="chatbot-input" 
                         id="chatbot-input" 
-                        placeholder="Ask me anything about Adil..."
+                        placeholder="Ask me anything about Attanasia..."
                         autocomplete="off"
                     >
                     <button class="chatbot-send-btn" id="chatbot-send">
@@ -442,13 +436,13 @@ class AdilChatbot {
     }
     
     loadWelcomeMessage() {
-        const welcomeMsg = `Hi! I'm Adil's AI assistant. 
+        const welcomeMsg = `Hi! I'm Attanasia's AI assistant. 
 
 I can help you learn about:
-• **Technical Skills** - Python, ML, MLOps, Docker
-• **Projects** - Price Predictor, Toolly Studio, Resume Screening
-• **Experience** - 2+ years in ML Engineering
-• **Certifications** - Stanford ML, Harvard CS50, and more
+• **Technical Skills** - Python, ML, Docker
+• **Projects** - CryptoVista, TradingAlgo
+• **Experience** - 2 years in ML model development
+• **Certifications** - AWS, Udacity, and more
 • **Contact Info** - Email, LinkedIn, GitHub, Kaggle
 
 Try the quick action buttons below or ask me anything! `;
@@ -506,12 +500,12 @@ Try the quick action buttons below or ask me anything! `;
         
         // Contact information queries
         if (lowerMessage.match(/contact|reach|email|phone|call|connect|get in touch|communicate/i)) {
-            return `You can contact Adil through:\n\n📧 **Email:** ${info.email}\n📱 **Phone:** ${info.phone}\n🔗 **LinkedIn:** ${info.socialMedia.linkedin}\n🐙 **GitHub:** ${info.socialMedia.github}\n🏆 **Kaggle:** ${info.socialMedia.kaggle}\n🐦 **Twitter/X:** ${info.socialMedia.twitter}\n📝 **Medium Blog:** ${info.socialMedia.medium}\n🌐 **Website:** https://adilshamim.me\n\n📍 **Location:** ${info.location}`;
+            return `You can contact Attanasia through:\n\n📧 **Email:** ${info.email}\n🔗 **LinkedIn:** ${info.socialMedia.linkedin}\n🐙 **GitHub:** ${info.socialMedia.github}\n🏆 **Kaggle:** ${info.socialMedia.kaggle}\n🌐 **Website:** https://adilshamim.me\n\n📍 **Location:** ${info.location}`;
         }
         
         // Skills queries
-        if (lowerMessage.match(/skill|technical|technology|programming|what (can|do) (you|adil)|expertise|proficient|languages/i)) {
-            let skillsText = `Adil has expertise in:\n\n`;
+        if (lowerMessage.match(/skill|technical|technology|programming|what (can|do) (you|attanasia)|expertise|proficient|languages/i)) {
+            let skillsText = `Attanasia has expertise in:\n\n`;
             skillsText += `**Programming & Data:**\n${info.skills.programmingAndData.map(s => `• ${s}`).join('\n')}\n\n`;
             skillsText += `**Modeling & Machine Learning:**\n${info.skills.modelingAndML.map(s => `• ${s}`).join('\n')}\n\n`;
             skillsText += `**MLOps & Deployment:**\n${info.skills.mlopsAndDeployment.map(s => `• ${s}`).join('\n')}\n\n`;
@@ -522,7 +516,7 @@ Try the quick action buttons below or ask me anything! `;
         
         // Projects queries
         if (lowerMessage.match(/project|portfolio|work|built|created|developed|show me/i)) {
-            let projectsText = `Here are Adil's key projects:\n\n`;
+            let projectsText = `Here are Attanasia's key projects:\n\n`;
             info.projects.forEach((project, index) => {
                 projectsText += `**${index + 1}. ${project.name}**\n`;
                 projectsText += `Technologies: ${project.technologies.join(', ')}\n`;
@@ -534,7 +528,7 @@ Try the quick action buttons below or ask me anything! `;
         
         // Experience queries
         if (lowerMessage.match(/experience|work|job|career|employment|position|role/i)) {
-            let expText = `**Adil's Work Experience:**\n\n`;
+            let expText = `**Attanasia's Work Experience:**\n\n`;
             info.workExperience.forEach(exp => {
                 expText += `**${exp.title}** at ${exp.company}\n`;
                 expText += `📅 ${exp.period}\n\n`;
@@ -554,15 +548,6 @@ Try the quick action buttons below or ask me anything! `;
             return certText;
         }
         
-        // Achievements queries
-        if (lowerMessage.match(/achievement|accomplish|award|recognition|kaggle|rank|competition/i)) {
-            let achieveText = `**Adil's Achievements:**\n\n`;
-            achieveText += info.achievements.map(a => `✨ ${a}`).join('\n\n');
-            achieveText += `\n\n**Current Activities:**\n`;
-            achieveText += info.currentActivities.map(a => `🚀 ${a}`).join('\n\n');
-            return achieveText;
-        }
-        
         // About/Bio queries
         if (lowerMessage.match(/about|who (is|are)|tell me (about|more)|introduce|background|bio/i)) {
             return `${info.bio}\n\n**Title:** ${info.title}\n**Location:** ${info.location}\n**Languages:** ${info.languages.join(', ')}\n\n${info.experience}\n${info.kaggleStatus}\n\nFor more details, ask me about skills, projects, experience, or certifications!`;
@@ -570,24 +555,20 @@ Try the quick action buttons below or ask me anything! `;
         
         // Location queries
         if (lowerMessage.match(/where|location|live|based|from/i)) {
-            return `Adil is based in **${info.location}**.\n\n${info.bio}`;
+            return `Attanasia is based in **${info.location}**.\n\n${info.bio}`;
         }
         
         // Interests queries
         if (lowerMessage.match(/interest|passion|hobby|like|enjoy|focus/i)) {
-            let interestText = `**Adil's Interests & Focus Areas:**\n\n`;
+            let interestText = `**Attanasia's Interests:**\n\n`;
             interestText += info.interests.map(i => `💡 ${i}`).join('\n\n');
             return interestText;
         }
-        
-        // Resume/CV queries
-        if (lowerMessage.match(/resume|cv|download|document/i)) {
-            return `You can download Adil's resume from the website at:\n📄 **Resume/AdilShamim_ML_Engineer_Resume.pdf**\n\nIt's available in the website header or contact section.\n\nWould you like to know about his skills, projects, or experience?`;
-        }
+
         
         // Social media queries
         if (lowerMessage.match(/social|linkedin|github|kaggle|twitter|medium|blog/i)) {
-            return `Connect with Adil on:\n\n🔗 **LinkedIn:** ${info.socialMedia.linkedin}\n🐙 **GitHub:** ${info.socialMedia.github}\n🏆 **Kaggle:** ${info.socialMedia.kaggle}\n🐦 **Twitter/X:** ${info.socialMedia.twitter}\n📝 **Medium Blog:** ${info.socialMedia.medium}\n🌐 **Website:** https://adilshamim.me`;
+            return `Connect with Attanasia on:\n\n🔗 **LinkedIn:** ${info.socialMedia.linkedin}\n🐙 **GitHub:** ${info.socialMedia.github}\n🏆 **Kaggle:** ${info.socialMedia.kaggle}\n🐦 **Twitter/X:** ${info.socialMedia.twitter}\n📝 **Medium Blog:** ${info.socialMedia.medium}\n🌐 **Website:** https://adilshamim.me`;
         }
         
         // No match found
@@ -603,12 +584,12 @@ Try the quick action buttons below or ask me anything! `;
             error.message.includes('insufficient') ||
             error.statusCode === 429
         )) {
-            return "I'm sorry, I'm having trouble connecting right now. Please try again in a moment or contact Adil directly through the contact section below.\n\n📧 Email: adilshamim696@gmail.com\n📱 Phone: +880 1321073452\n🔗 LinkedIn: https://www.linkedin.com/in/adilshamim8";
+            return "I'm sorry, I'm having trouble connecting right now. Please try again in a moment or contact Attanasia directly through the contact section below.\n\n📧 Email: garusoattanasia@gmail.com\n🔗 LinkedIn: https://www.linkedin.com/in/attanasia-garuso";
         }
         
         // Check for rate limit errors
         if (error.message && error.message.includes('rate limit')) {
-            return "I'm processing too many requests right now. Please wait a moment and try again, or reach out to Adil directly through the contact section.";
+            return "I'm processing too many requests right now. Please wait a moment and try again, or reach out to Attanasia directly through the contact section.";
         }
         
         // Check for network/connectivity errors
@@ -617,11 +598,11 @@ Try the quick action buttons below or ask me anything! `;
             error.message.includes('fetch') ||
             error.message.includes('Failed to fetch')
         )) {
-            return "I'm having network connectivity issues. Please check your internet connection and try again, or contact Adil directly through the contact section.";
+            return "I'm having network connectivity issues. Please check your internet connection and try again, or contact Attanasia directly through the contact section.";
         }
         
         // Generic fallback for all other errors
-        return "I'm sorry, I'm having trouble connecting right now. Please try again in a moment or contact Adil directly through the contact section.\n\n📧 Email: adilshamim696@gmail.com\n🔗 LinkedIn: https://www.linkedin.com/in/adilshamim8";
+        return "I'm sorry, I'm having trouble connecting right now. Please try again in a moment or contact Attanasia directly through the contact section.\n\n📧 Email: garusoattanasia@gmail.com\n🔗 LinkedIn: https://www.linkedin.com/in/attanasia-garuso";
     }
     
     async getGeminiResponse(userMessage) {
@@ -633,7 +614,7 @@ Try the quick action buttons below or ask me anything! `;
             },
             {
                 role: "model",
-                parts: [{ text: "I understand. I'm Adil Shamim's personal AI assistant. I'll help visitors learn about Adil, his work, skills, and experiences in a friendly and professional manner." }]
+                parts: [{ text: "I understand. I'm Attanasia Garuso's personal AI assistant. I'll help visitors learn about Attanasia, his work, skills, and experiences in a friendly and professional manner." }]
             }
         ];
         
@@ -730,7 +711,7 @@ Try the quick action buttons below or ask me anything! `;
         });
         
         const avatarHTML = sender === 'bot' ? 
-            `<img src="image/Adil.jpeg" alt="Avatar" class="message-avatar">` : '';
+            `<img src="image/Attanasia.jpg" alt="Avatar" class="message-avatar">` : '';
         
         messageDiv.innerHTML = `
             ${avatarHTML}
@@ -819,7 +800,7 @@ Try the quick action buttons below or ask me anything! `;
         typingDiv.id = 'typing-indicator';
         
         typingDiv.innerHTML = `
-            <img src="image/Adil.jpeg" alt="Avatar" class="message-avatar">
+            <img src="image/Attanasia.jpg" alt="Avatar" class="message-avatar">
             <div class="typing-indicator">
                 <div class="typing-dot"></div>
                 <div class="typing-dot"></div>
@@ -887,11 +868,12 @@ Try the quick action buttons below or ask me anything! `;
 // Initialize chatbot when DOM is ready
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
-        window.adilChatbot = new AdilChatbot();
+        window.attanasiaChatbot = new AttanasiaChatbot();
     });
 } else {
-    window.adilChatbot = new AdilChatbot();
+    window.attanasiaChatbot = new AttanasiaChatbot();
 }
+
 
 
 

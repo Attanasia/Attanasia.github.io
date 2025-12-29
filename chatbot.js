@@ -614,7 +614,7 @@ Try the quick action buttons below or ask me anything! `;
             },
             {
                 role: "model",
-                parts: [{ text: "I understand. I'm Attanasia Garuso's personal AI assistant. I'll help visitors learn about Attanasia, his work, skills, and experiences in a friendly and professional manner." }]
+                parts: [{ text: "I understand. I'm Attanasia Garuso's personal AI assistant. I'll help visitors learn about Attanasia, her work, skills, and experiences in a friendly and professional manner." }]
             }
         ];
         
@@ -873,6 +873,7 @@ if (document.readyState === 'loading') {
 } else {
     window.attanasiaChatbot = new AttanasiaChatbot();
 }
+
 
 
 

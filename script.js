@@ -366,14 +366,17 @@ function initProjectsData() {
     const projects = [
         {
             id: 1,
-            title: "Prices Predictor System",
-            description: "An end-to-end machine learning pipeline for price prediction using ZenML and MLflow. Features include data preprocessing, model training, evaluation, and deployment with automated tracking of experiments and model versions.",
-            image: "https://i.postimg.cc/gJpxfpx5/Price.jpg",
-            category: "ml",
-            tags: ['Python', 'Machine Learning', 'ZenML', 'MLflow', 'Data Science', 'MLOps'],
-            //demoLink: "https://github.com/AdilShamim8/Prices_Predictor_System",
-            codeLink: "https://github.com/AdilShamim8/Prices_Predictor_System"
+            title: "Multilingual University Chatbot",
+            description: "Developed an AI-powered university assistance chatbot supporting five languages. Integrated multilingual transformer embeddings with automated intent detection to answer student queries related to admissions, academics, and campus services. Designed with a modular Flask/FastAPI backend for scalable deployment.",
+            //image: "/assets/images/multilingual-chatbot.png", // your current image
+            category: "nlp",
+            tags: ["NLP","Transformers","Multilingual Models", "Python","Flask","FastAPI"],
+            demoLink: null,
+            codeLink: "https://github.com/yourusername/multilingual-university-chatbot"
         },
+
+
+        
         {
             id: 2,
             title: 'Toolly Studio',
@@ -567,3 +570,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 }); 
+

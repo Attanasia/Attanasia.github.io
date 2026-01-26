@@ -1,4 +1,4 @@
-/* Enhanced Performance-Optimized Styles for Adil Shamim Portfolio */
+
 
 /* ===== CSS CUSTOM PROPERTIES (VARIABLES) ===== */
 :root {
@@ -649,4 +649,5 @@ body {
     .section-header h2 {
         font-size: var(--font-size-3xl);
     }
+
 }

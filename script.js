@@ -372,7 +372,7 @@ function initProjectsData() {
             category: "nlp",
             tags: ["NLP","Transformers","Multilingual Models", "Python","Flask","FastAPI"],
             demoLink: null,
-            codeLink: "https://github.com/yourusername/multilingual-university-chatbot"
+            codeLink: "https://github.com/Attanasia/Multilingual-University-Chatbot"
         },
 
         {
@@ -383,7 +383,7 @@ function initProjectsData() {
             category: "research",
             tags: ["PyTorch","VQ-VAE","Audio Processing","Representation Learning"],
             demoLink: null,
-            codeLink: "https://github.com/yourusername/vqvae-audio"
+            codeLink: "https://github.com/Attanasia/Audio-MNIST-Generation"
         },
 
         {
@@ -394,7 +394,7 @@ function initProjectsData() {
             category: "research",
             tags: ["Transformers","GPT-2","PyTorch","TensorFlow","NLP"],
             demoLink: null,
-            codeLink: "https://github.com/yourusername/mini-gpt"
+            codeLink: "https://github.com/Attanasia/mini-gpt"
         },
 
         {
@@ -405,7 +405,7 @@ function initProjectsData() {
             category: "applications",
             tags: ["Computer Vision","MediaPipe","Gesture Recognition","Python","Human-Centered AI"],
             demoLink: null,
-            codeLink: "https://github.com/yourusername/asl-learning-app"
+            codeLink: "https://github.com/Attanasia/asl-learning-app"
         },
         
         {
@@ -416,20 +416,21 @@ function initProjectsData() {
             category: "ml-systems",
             tags: ["Python","Streamlit","Pandas","NumPy","Quantitative Analysis"],
             demoLink: null,
-            codeLink: "https://github.com/yourusername/crypto-backtester"
+            codeLink: "https://github.com/Attanasia/crypto-backtester"
         },
         
-        
+
         {
             id: 6,
-            title: 'Toolly',
-            description: 'An AI-powered productivity suite that automates and streamlines your daily tasks. Features include intelligent text processing, automated content generation, and smart task management, all designed to boost your efficiency and save valuable time.',
-            image: 'https://i.postimg.cc/4d0vfpLB/20250613-1939-Toolly-Modern-Tech-Logo-simple-compose-01jxmr7v1neyav79wdd6fye13h.png',
-            category: 'ai',
-            tags: ['Python', 'AI', 'NLP', 'Web Development', 'Productivity Tools', 'Automation'],
-            demoLink: 'https://www.toolly.tech/',
-            codeLink: 'https://github.com/AdilShamim8/Toolly'
+            title: "TradeFlow: S&P 500 Big Data Analytics Platform",
+            description: "Built a complete big data platform analyzing 1.1M+ S&P 500 stock records with MongoDB distributed storage. Implemented a 3-layer data pipeline (Raw → Clean → Aggregated) with Docker containerization and real-time Streamlit dashboard featuring interactive visualizations. Includes production-grade code with Pydantic validation and comprehensive testing.",
+            //image: "/assets/images/tradeflow.png",
+            category: "data-engineering",
+            tags: ["Python", "MongoDB", "Docker", "Streamlit", "Big Data", "Pydantic", "PyTest", "Data Pipeline"],
+            demoLink: null,
+            codeLink: "https://github.com/Attanasia/tradeFlow"
         },
+        
     ];
     
     // Create project items
@@ -523,6 +524,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 }); 
+
 
 
 

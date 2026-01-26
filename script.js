@@ -368,7 +368,7 @@ function initProjectsData() {
             id: 1,
             title: "Multilingual University Chatbot",
             description: "Developed an AI-powered university assistance chatbot supporting five languages. Integrated multilingual transformer embeddings with automated intent detection to answer student queries related to admissions, academics, and campus services. Designed with a modular Flask/FastAPI backend for scalable deployment.",
-            //image: ""
+            image: "image/multilingual chatbot.jfif",
             category: "nlp",
             tags: ["NLP","Transformers","Multilingual Models", "Python","Flask","FastAPI"],
             demoLink: null,
@@ -524,6 +524,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 }); 
+
 
 
 

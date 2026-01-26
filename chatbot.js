@@ -175,7 +175,8 @@ const CHATBOT_CONFIG = {
             "Signal Processing & Representation Learning" 
         ],
         
-        website: "https://adilshamim.me"
+        website: "https://attanasia.github.io"
+
     },
     
     // System Prompt for Gemini
@@ -261,7 +262,7 @@ Software Engineering, Probability & Statistics, Calculus
 - Introducing Generative AI with AWS — 2024  
 - Microsoft Certified Azure IoT Developer Specialty — 2024  
 
-**PUBLICATIONS:**
+**PUBLICATIONS:** 
 Garuso, A., Kokalj-Filipovic, S., & Kaasaragadda, Y. (2025).  
 “A Look at Adversarial Attacks on Radio Waveforms from Discrete Latent Space.”  
 Presented at FCN 2025; submitted to IEEE Xplore.
@@ -873,6 +874,7 @@ if (document.readyState === 'loading') {
 } else {
     window.attanasiaChatbot = new AttanasiaChatbot();
 }
+
 
 
 

@@ -379,7 +379,7 @@ function initProjectsData() {
             id: 2,
             title: "Audio Denoising & Classification with VQ-VAE",
             description: "Built a Vector-Quantized Variational Autoencoder (VQ-VAE) for audio denoising and digit/gender classification using AudioMNIST. Designed a 1D audio processing pipeline to improve reconstruction quality and robustness under noisy conditions, exploring discrete latent representations for speech modeling.",
-            //image: "/assets/images/vqvae-audio.png",
+            image: "image/vqvae_audio.png",
             category: "research",
             tags: ["PyTorch","VQ-VAE","Audio Processing","Representation Learning"],
             demoLink: null,
@@ -401,7 +401,7 @@ function initProjectsData() {
             id: 4,
             title: "ASL Learning App with Gesture Recognition",
             description:"Built an interactive American Sign Language learning application combining reference sign videos with real-time hand-gesture recognition. Used MediaPipe-based hand tracking and ML classification to verify letter shapes and word formations, providing personalized feedback based on finger movement accuracy.",
-            image: "/assets/images/asl_app.png",
+            image: "image/asl_app.png",
             category: "applications",
             tags: ["Computer Vision","MediaPipe","Gesture Recognition","Python","Human-Centered AI"],
             demoLink: null,
@@ -412,7 +412,7 @@ function initProjectsData() {
             id: 5,
             title: "Crypto Strategy Backtester",
             description:"Designed a modular crypto backtesting framework for technical trading strategies such as EMA crossovers. Implemented a Streamlit dashboard with interactive candlestick charts, trade signal overlays, and risk-adjusted performance metrics including Sharpe Ratio and Maximum Drawdown.",
-            //image: "/assets/images/crypto-backtester.png",
+            image: "image/crypto_backtester.png",
             category: "ml-systems",
             tags: ["Python","Streamlit","Pandas","NumPy","Quantitative Analysis"],
             demoLink: null,
@@ -524,6 +524,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 }); 
+
 
 
 

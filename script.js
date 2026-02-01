@@ -424,7 +424,7 @@ function initProjectsData() {
             id: 6,
             title: "TradeFlow: S&P 500 Big Data Analytics Platform",
             description: "Built a complete big data platform analyzing 1.1M+ S&P 500 stock records with MongoDB distributed storage. Implemented a 3-layer data pipeline (Raw → Clean → Aggregated) with Docker containerization and real-time Streamlit dashboard featuring interactive visualizations. Includes production-grade code with Pydantic validation and comprehensive testing.",
-            //image: "/assets/images/tradeflow.png",
+            image: "image/trade_flow.png",
             category: "data-engineering",
             tags: ["Python", "MongoDB", "Docker", "Streamlit", "Big Data", "Pydantic", "PyTest", "Data Pipeline"],
             demoLink: null,
@@ -524,6 +524,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 }); 
+
 
 
 
